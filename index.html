@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__inner">
+                <a href="" class="logo">
+                    <img src="images/logo.svg" alt="FitLife logo">
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="">Главная</a></li>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Преимущества</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="header_btn">Начать</button>
+                <button class="burger" aria-label="Меню"></button>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main__inner">
+                <div class="left">
+                    <h1>Здоровое <span class="block">тело —</span> <span class="green">счастливая жизнь</span></h1>
+                    <p><span class="block">Простые тренировки, правильное питание </span>и поддержка каждый день.</p>
+                    <button>Начать сейчас</button>
+                </div>
+                <img src="images/girl.png" alt="FitLife girl">
+            </div>
+        </main>
+        <section class="benefits">
+            <div class="container">
+                <div class="benefit_card">
+                    <div class="icon_badge ">
+                        <img class="benefit_icon" src="images/icon-1.svg" alt="icom_1">
+                    </div>
+                    <div class="benefit_description">
+                        <h3>Тренировки</h3>
+                        <p>Занимайтесь дома в удобное время.</p>
+                    </div>
+                </div>
+                <div class="benefit_card ">
+                    <div class="icon_badge">
+                        <img class="benefit_icon" src="images/icon-2.svg" alt="icon_2">
+                    </div>
+                    <div class="benefit_description">
+                        <h3>План питания</h3>
+                        <p>Вкусные и простые рецепты.</p>
+                    </div>
+                </div>
+
+                <div class="benefit_card">
+                    <div class="icon_badge">
+                        <img class="benefit_icon" src="images/icon-3.svg" alt="icon_3">
+                    </div>
+                    <div class="benefit_description">
+                        <h3>Поддержка</h3>
+                        <p>Мы всегда рядом на вашем пути.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sessions">
+            <div class="container">
+                <div class="section_heading">
+                    <h2 class="section_title">Выберите занятие по настроению</h2>
+                    <p class="section_subtitle">Для каждого дня — свой ритм, уровень нагрузки и цель.</p>
+                </div>
+                <div class="sessions_cards">
+                    <article class="session_card">
+                        <div class="session_content">
+                            <div class="icon_badge">
+                                <img class="session_icon" src="images/icon-1.svg" alt="icom_1.1">
+                            </div>
+                            <div class="session_description">
+                                <h3 class="session_title">Йога</h3>
+                                <p class="session_copy">Гибкость, дыхание и спокойный старт.</p>
+                            </div>
+                        </div>
+                        <span class="session_duration">30–45 мин</span>
+                    </article>
+
+                    <article class="session_card">
+                        <div class="session_content">
+                            <div class="icon_badge">
+                                <img class="session_icon" src="images/icon-2.svg" alt="icon_2.2">
+                            </div>
+                            <div class="session_description">
+                                <h3 class="session_title">Силовая тренировка</h3>
+                                <p class="session_copy">Формируем силу и выносливость.</p>
+                            </div>
+                        </div>
+                        <span class="session_duration">40–60 мин</span>
+                    </article>
+
+                    <article class="session_card green_1">
+                        <div class="session_content">
+                            <div class="icon_badge">
+                                <img class="session_icon" src="images/icon-3.svg" alt="icon_3.1">
+                            </div>
+                            <div class="session_description">
+                                <h3 class="session_title">Кардио</h3>
+                                <p class="session_copy">Энергия и сжигание калорий.</p>
+                            </div>
+                        </div>
+                        <span class="session_duration">20–40 мин</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_top">
+                    <div class="brand_block">
+                        <a href="" class="footer_logo">
+                            <img class="logo" src="images/logo.svg" alt="FitLife logo">
+                        </a>
+                        <p class="footer_brand_copy">Простые тренировки, полезные привычки и поддержка на каждом шагу.
+                        </p>
+                    </div>
+
+                    <div class="footer_column">
+                        <h5 class="column_title">Контакты</h5>
+                        <ul class="footer_list">
+                            <li><a class="footer_link" href="mailto:hello@fitlife.ru">hello@fitlife.ru</a></li>
+                            <li><a class="footer_link" href="tel:+79991234567">+7 (999) 123-45-67</a></li>
+                            <li><a class="footer_link" href="">Москва, ул. Здоровья, 12</a></li>
+                        </ul>
+                        <button class="footer_button">
+                            <span class="footer_button_label">Начать сейчас</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="footer_divider"></div>
+                <div class="footer_bottom">
+                    <p class="copyright">© 2024 FitLife. Все права защищены.</p>
+                    <ul class="footer_social">
+                        <li class="social_link"><a href="">Instagram</a></li>
+                        <li class="social_link"><a href="">Telegram</a></li>
+                        <li class="social_link"><a href="">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
